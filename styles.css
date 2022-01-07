@@ -1,0 +1,52 @@
+
+body
+{
+  background-color:#EEF2FF;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+h1
+{
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.pika
+{
+  text-align:center;
+  margin-top:100px;
+}
+.alpha
+{
+  position:absolute;
+  top:70px;
+  right:300px;
+}
+.spam
+{
+height:400px;
+}
+.zampa{
+  position:absolute;
+  top:200px;
+  left:200px;
+  display:block;
+}
+.gama
+{
+  border-radius: 8px;
+  width:200px;
+  height: 200px;
+  position:relative;
+  top:100%;
+  margin-top: 100px;
+}
+.cl
+{
+  border-radius: 8px;
+  width:200px;
+  height: 200px;
+}
