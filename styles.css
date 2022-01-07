@@ -50,3 +50,7 @@ height:400px;
   width:200px;
   height: 200px;
 }
+.import:hover
+{
+  color: #CA965C;
+}
