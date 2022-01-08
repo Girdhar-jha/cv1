@@ -1,14 +1,25 @@
 
 body
 {
-  background-color:#EEF2FF;
   font-family: 'Merriweather', serif;
   text-align: center;
+  font-size: 100%;
+  background-color: #EAF6F6;
+  margin:0;
 }
 h1
 {
 
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  margin-top: 20px;
+  color:#66BFBF;
+  line-height: 2;
+}
+h2{
+  font-size:1rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 p
 {
@@ -47,11 +58,104 @@ height:400px;
 .cl
 {
   border-radius: 8px;
-  width:200px;
   height: 200px;
+  width: 200px;
+  float:left;
+  margin-right: 30px;
+}
+.kl
+{
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row
+{
+  width:50%;
+  margin:100px auto;
 }
 .import:hover
 {
-  color: #CA965C;
-  font-size:20px;
+  color:#FFFDDE;
+  font-size: 20px;
+}
+a
+{
+  color:#11999E;
+}
+.z
+{
+  text-align: left;
+  line-height: 2;
+}
+/*.c{
+  clear:left;
+}
+.m{
+  clear:right;
+}*/
+.e
+{
+  color: #FBF4E9;
+  margin-bottom: 0;
+  margin-top:10px;
+  padding-bottom:20px;
+}
+.middle-container
+{
+  background-color:#F7F7F7;
+}
+.bottom-container
+{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 30px 0;
+}
+.f
+{
+  background-color: #66BFBF;
+}
+.r{
+color: #11999E;
+padding-top:20px;
+margin-top:0;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image:linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -border-radius: 28;
+
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.q{
+  padding: 40px 0;
+}
+hr{
+  border-style:dotted none none none;
+  height:0;
+  border-width:10px;
+  width:5%;
+  color:#DFEEEA;
 }
